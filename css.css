@@ -1,0 +1,60 @@
+html {
+  text-align: center;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none; /* no underline */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html {
+  margin: 0 auto;
+  width: 750px;
+}
+
+
+
+ html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header3 {
+  text-align: left;
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    width: 100%;
+  }
+}
+
+.redText
+    {
+        color:red;
+        font-weight:bold;
+    }
+    .greenText
+    {
+        color:green;
+        font-weight:bold;
+    }
