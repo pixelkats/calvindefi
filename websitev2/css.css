@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+p, h2, a {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ font-family: 'Open Sans', sans-serif;
+}
+.containerr {
+    
+    display:flex;
+}
+.containermain{
+    
+    
+}
+body{
+
+    background-color: #0D0D0D;
+}
+.main {
+
+ background-color: green;
+
+ 
+}
+
+.main{
+ 
+
+}
+.fixed{
+     background-color: red;
+    width: 160px;
+min-height: 700px;
+text-align: center;
+background-color: #1F1F1F;
+color: white;
+}
+
+.fixed1 {
+ 
+
+
+}
+.flex-item{
+    color: white;
+    flex-grow: 1;
+padding-left: 20px;
+max-width: 1084px;
+background-color: #0D0D0D;
+}
+.sidenav {
+
+
+}
+
+.sidenav a {
+  padding: 6px 0px 6px 0px;
+ 
+
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+  background-color: lightgreen;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+
+.show {
+  display: block;
+}
+
+
+
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px;
+margin-bottom: 8px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+
+
+.mainlogo a{
+ 
+  color: white;
+
+  text-decoration: none;
+ 
+}
+
+.btn1 {
+  background-color: #4CAF50; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33.33%; /* IE10 */
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.filterDiv {
+ 
+  display: none;
+}
+
+
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column1 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.filterDiv {
+ 
+  display: none;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 224.19px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
